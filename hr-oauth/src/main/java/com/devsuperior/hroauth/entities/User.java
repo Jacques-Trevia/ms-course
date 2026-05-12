@@ -38,8 +38,11 @@ public class User implements UserDetails, Serializable {
         this.name = dto.getName();
         this.email = dto.getEmail();
         this.password = dto.getPassword();
-    }
-
+        this.roles = dto.getRoles().stream()
+                .map(roleDto -> new Role(roleDto.getId(), roleDto.getRoleName()))
+                .collect(Collectors.toSet());
+        }
+    
 	public Long getId() {
 		return id;
 	}

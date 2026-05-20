@@ -142,7 +142,7 @@ Use o token para acessar os endpoints protegidos (ex: GET /payroll/1).
 
 ## 📜 Licença
 
-Este projeto é parte do curso da **DevSuperior** e tem propósito educacional.
+Este projeto é parte do curso da udemy **Microsserviços Java com Spring Boot e Spring Cloud** e tem propósito educacional.
 
 ---
 
